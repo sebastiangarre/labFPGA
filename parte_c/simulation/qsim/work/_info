@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\sebas\Desktop\faculteishon\2024 seg cuatri\Técnicas y Dispositivos Digitales II\lab 2\labFPGA\parte_c\simulation\qsim
+vRestador_Completo_4b
+Z1 !s100 gF@WIMiD?3SZomLb6AQLA2
+Z2 I`h<`]kPVSnTBc9i9JZlBX2
+Z3 V8RQ;<TY?8jn7en8nNHBFj3
+Z4 dC:\Users\sebas\Desktop\faculteishon\2024 seg cuatri\Técnicas y Dispositivos Digitales II\lab 2\labFPGA\parte_c\simulation\qsim
+Z5 w1730930085
+Z6 8parte_c.vo
+Z7 Fparte_c.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|parte_c.vo|
+Z10 o-work work -O0
+Z11 n@restador_@completo_4b
+!i10b 1
+!s85 0
+Z12 !s108 1730930085.935000
+Z13 !s107 parte_c.vo|
+!s101 -O0
+vRestador_Completo_4b_vlg_check_tst
+!i10b 1
+!s100 9_;0Hf=DKkhFh<9ECHb8o1
+I6F>UX8iVdERfTXB=J6ZFd0
+Z14 Vdc59_di45=KMVOAR05VmG0
+R4
+Z15 w1730930084
+Z16 8parte_c.vt
+Z17 Fparte_c.vt
+L0 75
+R8
+r1
+!s85 0
+31
+Z18 !s108 1730930086.015000
+Z19 !s107 parte_c.vt|
+Z20 !s90 -work|work|parte_c.vt|
+!s101 -O0
+R10
+Z21 n@restador_@completo_4b_vlg_check_tst
+vRestador_Completo_4b_vlg_sample_tst
+!i10b 1
+Z22 !s100 h2U=>TXm6zZcf54XzoI0V3
+Z23 IG7=ZcL<8WN>cBfmn?bkz03
+Z24 VhPVM7foKn;?V:7[Yd6KEd1
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z25 n@restador_@completo_4b_vlg_sample_tst
+vRestador_Completo_4b_vlg_vec_tst
+!i10b 1
+!s100 aLO<SZUC@>`^g<a71Y8S80
+IjSg_ViHmF?o?oU^RBNo`^2
+Z26 VSD8m]Kg[I[5E^lLl]71e<1
+R4
+R15
+R16
+R17
+Z27 L0 278
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z28 n@restador_@completo_4b_vlg_vec_tst

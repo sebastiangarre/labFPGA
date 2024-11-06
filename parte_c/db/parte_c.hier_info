@@ -1,0 +1,62 @@
+|Restador_Completo_4b
+bout <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+CLOCK => inst28.CLK
+CLOCK => inst8.CLK
+CLOCK => inst9.CLK
+CLOCK => inst7.CLK
+CLOCK => inst10.CLK
+CLOCK => inst6.CLK
+CLOCK => inst11.CLK
+CLOCK => inst5.CLK
+CLOCK => inst12.CLK
+CLOCK => inst15.CLK
+CLOCK => inst16.CLK
+CLOCK => inst14.CLK
+CLOCK => inst13.CLK
+a3 => inst8.DATAIN
+b3 => inst9.DATAIN
+a2 => inst7.DATAIN
+b2 => inst10.DATAIN
+a1 => inst6.DATAIN
+b1 => inst11.DATAIN
+a0 => inst5.DATAIN
+b0 => inst12.DATAIN
+bin => Restador_Completo:inst40.in_bin
+z3 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+z2 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+z1 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+z0 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Restador_Completo_4b|Restador_Completo:inst
+in_a => ~NO_FANOUT~
+in_b => ~NO_FANOUT~
+in_bin => ~NO_FANOUT~
+o_z <= o_z.DB_MAX_OUTPUT_PORT_TYPE
+o_bout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Restador_Completo_4b|Restador_Completo:inst41
+in_a => ~NO_FANOUT~
+in_b => ~NO_FANOUT~
+in_bin => ~NO_FANOUT~
+o_z <= o_z.DB_MAX_OUTPUT_PORT_TYPE
+o_bout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Restador_Completo_4b|Restador_Completo:inst39
+in_a => ~NO_FANOUT~
+in_b => ~NO_FANOUT~
+in_bin => ~NO_FANOUT~
+o_z <= o_z.DB_MAX_OUTPUT_PORT_TYPE
+o_bout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Restador_Completo_4b|Restador_Completo:inst40
+in_a => ~NO_FANOUT~
+in_b => ~NO_FANOUT~
+in_bin => ~NO_FANOUT~
+o_z <= o_z.DB_MAX_OUTPUT_PORT_TYPE
+o_bout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
