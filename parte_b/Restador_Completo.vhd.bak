@@ -1,0 +1,27 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Restador_Completo is
+	port ( in_a, in_b, in_cin, clk : in std_logic;
+			 o_f, o_cout : out std_logic);
+end Restador_Completo;
+
+architecture Behavioral of Restador_Completo is
+
+component FFD 
+	port(D,CLK : in std_logic;
+		  Q : out std_logic);
+end component;
+
+signal a,b,bin,bout,z : std_logic;
+begin
+
+	z <= a xor b xor cin;
+	bout <= (a and b) or ((bin and a) or (bin and b));
+	
+ D1: FFD port map (in_a,clk,a);
+ D2: FFD port map (in_b,clk,b);
+ D3: FFD port map (in_cin,clk,cin);
+ D4: FFD port map (cout,clk,o_cout);
+ D5: FFD port map (f,clk,o_f);
+end Behavioral;
