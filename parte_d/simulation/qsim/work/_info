@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\sebas\Desktop\faculteishon\2024 seg cuatri\Técnicas y Dispositivos Digitales II\lab 2\labFPGA\parte_d\simulation\qsim
+vejercicio2
+Z1 Ib<RT_Io>HQb;moTjeo?oR1
+Z2 VlO^@^eN6;D>Kzh@Tdik8h1
+Z3 dC:\Users\sebas\Desktop\faculteishon\2024 seg cuatri\Técnicas y Dispositivos Digitales II\lab 2\labFPGA\parte_d\simulation\qsim
+Z4 w1730934836
+Z5 8parte_d.vo
+Z6 Fparte_d.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 Xn3PPhizgoLBR6jTl5jZQ2
+!s85 0
+Z10 !s108 1730934836.816000
+Z11 !s107 parte_d.vo|
+Z12 !s90 -work|work|parte_d.vo|
+!s101 -O0
+vejercicio2_vlg_check_tst
+!i10b 1
+!s100 J:RWdNL868;Z>J[[dUDZ61
+I@g2`B@63>JljJ6iFd]d:32
+V:hfh38RUad?oAa]AO]_]l0
+R3
+Z13 w1730934835
+Z14 8parte_d.vt
+Z15 Fparte_d.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1730934836.969000
+Z17 !s107 parte_d.vt|
+Z18 !s90 -work|work|parte_d.vt|
+!s101 -O0
+R8
+vejercicio2_vlg_sample_tst
+!i10b 1
+!s100 <E4P`M_CX0ZD?hWT69a5e1
+Ibh35i1lMNT5WX9PRSN^F:0
+Vi`0ihL16QQMU1nJO;>>NJ0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vejercicio2_vlg_vec_tst
+!i10b 1
+!s100 Ufo3A3^CU;B0U0Rz`1hdS3
+Ie=JdV[hKGGO[?h33P`UbE2
+VL@>eAJO1Y3G0bBUlT5RnH0
+R3
+R13
+R14
+R15
+L0 237
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
