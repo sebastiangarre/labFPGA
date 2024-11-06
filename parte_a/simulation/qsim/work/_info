@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\sebas\Desktop\faculteishon\2024 seg cuatri\Técnicas y Dispositivos Digitales II\lab 2\FPGArre\FPGArre\simulation\qsim
+vFPGAparteA
+Z1 !s100 :2HK]kdgVA9SViX::Z78M0
+Z2 I;aEb_iT:<lj1JW:fXgfST0
+Z3 Vj3hkOhG<bWfnYZh=0hCfn0
+Z4 dC:\Users\sebas\Desktop\faculteishon\2024 seg cuatri\Técnicas y Dispositivos Digitales II\lab 2\FPGArre\FPGArre\simulation\qsim
+Z5 w1730577849
+Z6 8FPGAparteA.vo
+Z7 FFPGAparteA.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|FPGAparteA.vo|
+Z10 o-work work -O0
+Z11 n@f@p@g@aparte@a
+!i10b 1
+!s85 0
+Z12 !s108 1730577849.718000
+Z13 !s107 FPGAparteA.vo|
+!s101 -O0
+vFPGAparteA_vlg_check_tst
+!i10b 1
+Z14 !s100 ?cc_O8KIHb1GWL[8QAe300
+Z15 Ij17G;NZNc3c>a:nz0@I9l2
+Z16 V@LhUBaC=4CjjVEK05>9D]2
+R4
+Z17 w1730577848
+Z18 8FPGAparteA.vt
+Z19 FFPGAparteA.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1730577849.860000
+Z21 !s107 FPGAparteA.vt|
+Z22 !s90 -work|work|FPGAparteA.vt|
+!s101 -O0
+R10
+Z23 n@f@p@g@aparte@a_vlg_check_tst
+vFPGAparteA_vlg_sample_tst
+!i10b 1
+Z24 !s100 0AKInIWNnDXbB0OjdLE6K1
+Z25 IaNQ]bR]Th6A>VOMo8R4X=2
+Z26 VSCM6G>cDUF^mj_Yag9SZM0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@f@p@g@aparte@a_vlg_sample_tst
+vFPGAparteA_vlg_vec_tst
+!i10b 1
+Z28 !s100 POl]lDofJ7D<clKl2JlDd1
+Z29 Io@@EjR6Mc[P<Xmn2N@zVM3
+Z30 VE3cfco4l24@j[eV=I_QSn3
+R4
+R17
+R18
+R19
+Z31 L0 156
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@f@p@g@aparte@a_vlg_vec_tst

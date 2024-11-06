@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/FPGArre/FPGArre/FPGAparteA.vhd
+source_file = 1, C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/FPGArre/FPGArre/simulation_part_A.vwf
+source_file = 1, C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/FPGArre/FPGArre/db/FPGAparteA.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = FPGAparteA
+instance = comp, \LED~output , LED~output, FPGAparteA, 1
+instance = comp, \SW3~input , SW3~input, FPGAparteA, 1
+instance = comp, \SW1~input , SW1~input, FPGAparteA, 1
+instance = comp, \SW2~input , SW2~input, FPGAparteA, 1
+instance = comp, \LED~0 , LED~0, FPGAparteA, 1

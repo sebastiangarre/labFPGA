@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\sebas\Desktop\faculteishon\2024 seg cuatri\Técnicas y Dispositivos Digitales II\lab 2\FPGArre\FPGArre
+Efpgapartea
+Z1 w1730573945
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\sebas\Desktop\faculteishon\2024 seg cuatri\Técnicas y Dispositivos Digitales II\lab 2\FPGArre\FPGArre
+Z5 8C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/FPGArre/FPGArre/FPGAparteA.vhd
+Z6 FC:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/FPGArre/FPGArre/FPGAparteA.vhd
+l0
+L4
+V:J5FO1o=OG_So19kT<[Mk2
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1730587080.050000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/FPGArre/FPGArre/FPGAparteA.vhd|
+Z10 !s107 C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/FPGArre/FPGArre/FPGAparteA.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 8=1W9ziRnaVAWVH6T[?`V0
+!i10b 1
+Acomp
+R2
+R3
+DEx4 work 10 fpgapartea 0 22 :J5FO1o=OG_So19kT<[Mk2
+l13
+L11
+VojAKVHOPSXX]n8N8[3V^f0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 6JB`3fH<MNAc<W3ZoeRSK0
+!i10b 1
+Efpgapartea_tb
+Z13 w1730586291
+R2
+R3
+R4
+Z14 8C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/FPGArre/FPGArre/FPGAparteA_tb.vhd
+Z15 FC:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/FPGArre/FPGArre/FPGAparteA_tb.vhd
+l0
+L4
+V2<XiN4dm^07JCC1nzYLZ>1
+!s100 ^d5_3^63kQl?ReHf9eSzH1
+R7
+31
+!i10b 1
+Z16 !s108 1730587080.289000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/FPGArre/FPGArre/FPGAparteA_tb.vhd|
+Z18 !s107 C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/FPGArre/FPGArre/FPGAparteA_tb.vhd|
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 13 fpgapartea_tb 0 22 2<XiN4dm^07JCC1nzYLZ>1
+l21
+L6
+VLgmc3YX=MCeYccjc2Lm;V1
+!s100 FC`34;[L33V7R;W9W0>oE2
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12
