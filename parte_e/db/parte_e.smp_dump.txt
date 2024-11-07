@@ -1,0 +1,9 @@
+
+State Machine - |parte_e|fstate
+Name fstate.guarda_dato fstate.ackk fstate.RorW fstate.guarda_dir fstate.start fstate.ocioso 
+fstate.ocioso 0 0 0 0 0 0 
+fstate.start 0 0 0 0 1 1 
+fstate.guarda_dir 0 0 0 1 0 1 
+fstate.RorW 0 0 1 0 0 1 
+fstate.ackk 0 1 0 0 0 1 
+fstate.guarda_dato 1 0 0 0 0 1 
