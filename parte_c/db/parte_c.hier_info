@@ -1,62 +1,86 @@
 |Restador_Completo_4b
-bout <= inst28.DB_MAX_OUTPUT_PORT_TYPE
-CLOCK => inst28.CLK
-CLOCK => inst8.CLK
-CLOCK => inst9.CLK
-CLOCK => inst7.CLK
-CLOCK => inst10.CLK
-CLOCK => inst6.CLK
-CLOCK => inst11.CLK
-CLOCK => inst5.CLK
-CLOCK => inst12.CLK
-CLOCK => inst15.CLK
-CLOCK => inst16.CLK
-CLOCK => inst14.CLK
-CLOCK => inst13.CLK
-a3 => inst8.DATAIN
-b3 => inst9.DATAIN
-a2 => inst7.DATAIN
-b2 => inst10.DATAIN
-a1 => inst6.DATAIN
-b1 => inst11.DATAIN
-a0 => inst5.DATAIN
-b0 => inst12.DATAIN
-bin => Restador_Completo:inst40.in_bin
-z3 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
-z2 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
-z1 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
-z0 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+a0 => DFF_inst5.DATAIN
+b0 => DFF_inst12.DATAIN
+a1 => DFF_inst6.DATAIN
+b1 => DFF_inst11.DATAIN
+a2 => DFF_inst7.DATAIN
+b2 => DFF_inst10.DATAIN
+a3 => DFF_inst8.DATAIN
+b3 => DFF_inst9.DATAIN
+bin => restador_completo:b2v_inst40.in_bin
+CLOCK => DFF_inst9.CLK
+CLOCK => DFF_inst8.CLK
+CLOCK => DFF_inst7.CLK
+CLOCK => DFF_inst6.CLK
+CLOCK => DFF_inst5.CLK
+CLOCK => bout~reg0.CLK
+CLOCK => z2~reg0.CLK
+CLOCK => z3~reg0.CLK
+CLOCK => z1~reg0.CLK
+CLOCK => z0~reg0.CLK
+CLOCK => DFF_inst12.CLK
+CLOCK => DFF_inst11.CLK
+CLOCK => DFF_inst10.CLK
+bout <= bout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z3 <= z3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z2 <= z2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z1 <= z1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z0 <= z0~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Restador_Completo_4b|Restador_Completo:inst
-in_a => ~NO_FANOUT~
-in_b => ~NO_FANOUT~
-in_bin => ~NO_FANOUT~
+|Restador_Completo_4b|Restador_completo:b2v_inst
+in_a => o_z.IN0
+in_a => o_bout.IN0
+in_a => o_bout.IN0
+in_b => o_z.IN1
+in_b => o_bout.IN1
+in_b => o_bout.IN0
+in_bin => o_z.IN1
+in_bin => o_bout.IN1
+in_bin => o_bout.IN1
 o_z <= o_z.DB_MAX_OUTPUT_PORT_TYPE
-o_bout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+o_bout <= o_bout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Restador_Completo_4b|Restador_Completo:inst41
-in_a => ~NO_FANOUT~
-in_b => ~NO_FANOUT~
-in_bin => ~NO_FANOUT~
+|Restador_Completo_4b|Restador_completo:b2v_inst39
+in_a => o_z.IN0
+in_a => o_bout.IN0
+in_a => o_bout.IN0
+in_b => o_z.IN1
+in_b => o_bout.IN1
+in_b => o_bout.IN0
+in_bin => o_z.IN1
+in_bin => o_bout.IN1
+in_bin => o_bout.IN1
 o_z <= o_z.DB_MAX_OUTPUT_PORT_TYPE
-o_bout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+o_bout <= o_bout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Restador_Completo_4b|Restador_Completo:inst39
-in_a => ~NO_FANOUT~
-in_b => ~NO_FANOUT~
-in_bin => ~NO_FANOUT~
+|Restador_Completo_4b|Restador_completo:b2v_inst40
+in_a => o_z.IN0
+in_a => o_bout.IN0
+in_a => o_bout.IN0
+in_b => o_z.IN1
+in_b => o_bout.IN1
+in_b => o_bout.IN0
+in_bin => o_z.IN1
+in_bin => o_bout.IN1
+in_bin => o_bout.IN1
 o_z <= o_z.DB_MAX_OUTPUT_PORT_TYPE
-o_bout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+o_bout <= o_bout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Restador_Completo_4b|Restador_Completo:inst40
-in_a => ~NO_FANOUT~
-in_b => ~NO_FANOUT~
-in_bin => ~NO_FANOUT~
+|Restador_Completo_4b|Restador_completo:b2v_inst41
+in_a => o_z.IN0
+in_a => o_bout.IN0
+in_a => o_bout.IN0
+in_b => o_z.IN1
+in_b => o_bout.IN1
+in_b => o_bout.IN0
+in_bin => o_z.IN1
+in_bin => o_bout.IN1
+in_bin => o_bout.IN1
 o_z <= o_z.DB_MAX_OUTPUT_PORT_TYPE
-o_bout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+o_bout <= o_bout.DB_MAX_OUTPUT_PORT_TYPE
 
 

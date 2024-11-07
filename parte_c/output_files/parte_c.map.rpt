@@ -1,5 +1,5 @@
 Analysis & Synthesis report for parte_c
-Wed Nov 06 18:51:54 2024
+Thu Nov 07 10:04:45 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -13,10 +13,9 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. General Register Statistics
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  8. General Register Statistics
+  9. Elapsed Time Per Partition
+ 10. Analysis & Synthesis Messages
 
 
 
@@ -42,15 +41,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Nov 06 18:51:54 2024           ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 07 10:04:45 2024           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; parte_c                                         ;
 ; Top-level Entity Name              ; Restador_Completo_4b                            ;
 ; Family                             ; Cyclone III                                     ;
-; Total logic elements               ; 0                                               ;
-;     Total combinational functions  ; 0                                               ;
-;     Dedicated logic registers      ; 0                                               ;
-; Total registers                    ; 0                                               ;
+; Total logic elements               ; 18                                              ;
+;     Total combinational functions  ; 10                                              ;
+;     Dedicated logic registers      ; 13                                              ;
+; Total registers                    ; 13                                              ;
 ; Total pins                         ; 15                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
@@ -157,14 +156,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                      ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                                            ; Library ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+---------+
-; Restador_Completo_4b.bdf         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_Completo_4b.bdf ;         ;
-; Restador_completo.vhd            ; yes             ; User VHDL File                     ; C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_completo.vhd    ;         ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                   ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                                            ; Library ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------------------+---------+
+; Restador_Completo_4b.vhd         ; yes             ; User VHDL File  ; C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_Completo_4b.vhd ;         ;
+; Restador_completo.vhd            ; yes             ; User VHDL File  ; C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_completo.vhd    ;         ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -172,52 +171,43 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
+; Estimated Total logic elements              ; 18          ;
 ;                                             ;             ;
-; Total combinational functions               ; 0           ;
+; Total combinational functions               ; 10          ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 0           ;
-;     -- 3 input functions                    ; 0           ;
-;     -- <=2 input functions                  ; 0           ;
+;     -- 4 input functions                    ; 4           ;
+;     -- 3 input functions                    ; 4           ;
+;     -- <=2 input functions                  ; 2           ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 0           ;
+;     -- normal mode                          ; 10          ;
 ;     -- arithmetic mode                      ; 0           ;
 ;                                             ;             ;
-; Total registers                             ; 0           ;
-;     -- Dedicated logic registers            ; 0           ;
+; Total registers                             ; 13          ;
+;     -- Dedicated logic registers            ; 13          ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
 ; I/O pins                                    ; 15          ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
-; Maximum fan-out node                        ; bout~output ;
-; Maximum fan-out                             ; 1           ;
-; Total fan-out                               ; 15          ;
-; Average fan-out                             ; 0.50        ;
+; Maximum fan-out node                        ; CLOCK~input ;
+; Maximum fan-out                             ; 13          ;
+; Total fan-out                               ; 78          ;
+; Average fan-out                             ; 1.47        ;
 +---------------------------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                           ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name   ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------+--------------+
-; |Restador_Completo_4b      ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 15   ; 0            ; |Restador_Completo_4b ; work         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------+--------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                               ;
++-----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------+--------------+
+; Compilation Hierarchy Node        ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                ; Library Name ;
++-----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------+--------------+
+; |Restador_Completo_4b             ; 10 (0)            ; 13 (13)      ; 0           ; 0            ; 0       ; 0         ; 15   ; 0            ; |Restador_Completo_4b                              ; work         ;
+;    |Restador_completo:b2v_inst39| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Restador_Completo_4b|Restador_completo:b2v_inst39 ; work         ;
+;    |Restador_completo:b2v_inst40| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Restador_Completo_4b|Restador_completo:b2v_inst40 ; work         ;
+;    |Restador_completo:b2v_inst41| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Restador_Completo_4b|Restador_completo:b2v_inst41 ; work         ;
+;    |Restador_completo:b2v_inst|   ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Restador_Completo_4b|Restador_completo:b2v_inst   ; work         ;
++-----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+--------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                             ;
-+---------------------------------------+----------------------------------------+
-; Register name                         ; Reason for Removal                     ;
-+---------------------------------------+----------------------------------------+
-; inst28                                ; Stuck at GND due to stuck port data_in ;
-; inst15                                ; Stuck at GND due to stuck port data_in ;
-; inst16                                ; Stuck at GND due to stuck port data_in ;
-; inst14                                ; Stuck at GND due to stuck port data_in ;
-; inst13                                ; Stuck at GND due to stuck port data_in ;
-; Total Number of Removed Registers = 5 ;                                        ;
-+---------------------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -225,7 +215,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 13    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -250,49 +240,32 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Nov 06 18:51:53 2024
+    Info: Processing started: Thu Nov 07 10:04:43 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off parte_c -c parte_c
 Warning (20028): Parallel compilation is not licensed and has been disabled
-Info (12021): Found 1 design units, including 1 entities, in source file restador_completo_4b.bdf
+Info (12021): Found 2 design units, including 1 entities, in source file restador_completo_4b.vhd
+    Info (12022): Found design unit 1: Restador_Completo_4b-bdf_type
     Info (12023): Found entity 1: Restador_Completo_4b
 Info (12021): Found 2 design units, including 1 entities, in source file restador_completo.vhd
-    Info (12022): Found design unit 1: Restador_Completo-Behavioral
-    Info (12023): Found entity 1: Restador_Completo
+    Info (12022): Found design unit 1: Restador_completo-Behavioral
+    Info (12023): Found entity 1: Restador_completo
+Info (12021): Found 2 design units, including 1 entities, in source file restador_completo_4b_t.vhd
+    Info (12022): Found design unit 1: Restador_Completo_4b_t-behavior
+    Info (12023): Found entity 1: Restador_Completo_4b_t
 Info (12127): Elaborating entity "Restador_Completo_4b" for the top level hierarchy
-Info (12128): Elaborating entity "Restador_Completo" for hierarchy "Restador_Completo:inst"
-Warning (10541): VHDL Signal Declaration warning at Restador_completo.vhd(6): used implicit default value for signal "o_z" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
-Warning (10541): VHDL Signal Declaration warning at Restador_completo.vhd(6): used implicit default value for signal "o_bout" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
-Warning (10541): VHDL Signal Declaration warning at Restador_completo.vhd(11): used implicit default value for signal "a" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
-Warning (10541): VHDL Signal Declaration warning at Restador_completo.vhd(11): used implicit default value for signal "b" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
-Warning (10541): VHDL Signal Declaration warning at Restador_completo.vhd(11): used implicit default value for signal "bin" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
-Warning (10036): Verilog HDL or VHDL warning at Restador_completo.vhd(11): object "bout" assigned a value but never read
-Warning (10036): Verilog HDL or VHDL warning at Restador_completo.vhd(11): object "z" assigned a value but never read
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "bout" is stuck at GND
-    Warning (13410): Pin "z3" is stuck at GND
-    Warning (13410): Pin "z2" is stuck at GND
-    Warning (13410): Pin "z1" is stuck at GND
-    Warning (13410): Pin "z0" is stuck at GND
+Warning (10812): VHDL warning at Restador_Completo_4b.vhd(212): sensitivity list already contains SYNTHESIZED_WIRE_38
+Info (12128): Elaborating entity "Restador_completo" for hierarchy "Restador_completo:b2v_inst"
+Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 10 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "CLOCK"
-    Warning (15610): No output dependent on input pin "a3"
-    Warning (15610): No output dependent on input pin "b3"
-    Warning (15610): No output dependent on input pin "a2"
-    Warning (15610): No output dependent on input pin "b2"
-    Warning (15610): No output dependent on input pin "a1"
-    Warning (15610): No output dependent on input pin "b1"
-    Warning (15610): No output dependent on input pin "a0"
-    Warning (15610): No output dependent on input pin "b0"
-    Warning (15610): No output dependent on input pin "bin"
-Info (21057): Implemented 15 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 33 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 5 output pins
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 25 warnings
-    Info: Peak virtual memory: 4648 megabytes
-    Info: Processing ended: Wed Nov 06 18:51:54 2024
-    Info: Elapsed time: 00:00:01
+    Info (21061): Implemented 18 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4629 megabytes
+    Info: Processing ended: Thu Nov 07 10:04:45 2024
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

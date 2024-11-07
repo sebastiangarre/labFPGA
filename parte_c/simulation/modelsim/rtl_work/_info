@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\Users\sebas\Desktop\faculteishon\2024 seg cuatri\Técnicas y Dispositivos Digitales II\lab 2\labFPGA\parte_c\simulation\modelsim
 Erestador_completo
-Z1 w1730905734
+Z1 w1730984683
 Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
 Z4 dC:\Users\sebas\Desktop\faculteishon\2024 seg cuatri\Técnicas y Dispositivos Digitales II\lab 2\labFPGA\parte_c\simulation\modelsim
@@ -12,29 +12,103 @@ Z5 8C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos 
 Z6 FC:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_completo.vhd
 l0
 L4
-VbghRIS6nO4@TlW;6U39B83
-!s100 34GflXh6Ez@1Wm92NFWR`2
+V3MSkn6UiUI]83Hj943gci1
 Z7 OV;C;10.1d;51
 31
-!i10b 1
-Z8 !s108 1730925982.614000
+Z8 !s108 1730984832.433000
 Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_completo.vhd|
 Z10 !s107 C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_completo.vhd|
 Z11 o-93 -work work -O0
 Z12 tExplicit 1
+!s100 Q[9edgGTC`[dNTDlQj^M_2
+!i10b 1
 Abehavioral
 R2
 R3
-DEx4 work 17 restador_completo 0 22 bghRIS6nO4@TlW;6U39B83
-l17
+DEx4 work 17 restador_completo 0 22 3MSkn6UiUI]83Hj943gci1
+l11
 L9
-VC]c7Z1QZ6m>6ngTfYYnO60
-!s100 KWKV=OVj5]F9VTW_FD<Y=2
+Vm9jaCkA9<iVFBBOHAO>HV3
 R7
 31
-!i10b 1
 R8
 R9
 R10
+R11
+R12
+!s100 095M:Ed0HLUD_6?6k_9FT0
+!i10b 1
+Erestador_completo_4b
+Z13 w1730938509
+R2
+R3
+R4
+Z14 8C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_Completo_4b.vhd
+Z15 FC:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_Completo_4b.vhd
+l0
+L24
+VV9z;6RfgJJ^gf<gmdRChH1
+R7
+31
+Z16 !s108 1730984832.234000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_Completo_4b.vhd|
+Z18 !s107 C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_Completo_4b.vhd|
+R11
+R12
+!s100 dlm^NJ]YL]P@b540g<2`W2
+!i10b 1
+Abdf_type
+R2
+R3
+DEx4 work 20 restador_completo_4b 0 22 V9z;6RfgJJ^gf<gmdRChH1
+l90
+L45
+VFUaP`RkJXUTSURNiD0[1D2
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 h6;FXf:7Q0KmOlXA0Qf973
+!i10b 1
+Erestador_completo_4b_t
+Z19 w1730984682
+Z20 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z21 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R2
+R3
+R4
+Z22 8C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_Completo_4b_t.vhd
+Z23 FC:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_Completo_4b_t.vhd
+l0
+L5
+V120WcK>i@W^@2G7XHQdM:0
+!s100 <VLEeP9hS;O<7G]E?H8?40
+R7
+31
+!i10b 1
+Z24 !s108 1730984832.698000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_Completo_4b_t.vhd|
+Z26 !s107 C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_c/Restador_Completo_4b_t.vhd|
+R11
+R12
+Abehavior
+R20
+R21
+R2
+R3
+DEx4 work 22 restador_completo_4b_t 0 22 120WcK>i@W^@2G7XHQdM:0
+l30
+L8
+VYJ;UKEHLRJ]8EebPml:4G1
+!s100 XAW8<aTZ::QZVhXzDW37_3
+R7
+31
+!i10b 1
+R24
+R25
+R26
 R11
 R12
