@@ -1,5 +1,5 @@
 Analysis & Synthesis report for parte_c
-Thu Nov 07 10:04:45 2024
+Thu Nov 07 10:27:43 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 07 10:04:45 2024           ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 07 10:27:43 2024           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; parte_c                                         ;
 ; Top-level Entity Name              ; Restador_Completo_4b                            ;
@@ -240,7 +240,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Nov 07 10:04:43 2024
+    Info: Processing started: Thu Nov 07 10:27:41 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off parte_c -c parte_c
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file restador_completo_4b.vhd
@@ -264,7 +264,7 @@ Info (21057): Implemented 33 device resources after synthesis - the final resour
     Info (21061): Implemented 18 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 4629 megabytes
-    Info: Processing ended: Thu Nov 07 10:04:45 2024
+    Info: Processing ended: Thu Nov 07 10:27:43 2024
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
