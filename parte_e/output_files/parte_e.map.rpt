@@ -1,5 +1,5 @@
 Analysis & Synthesis report for parte_e
-Thu Nov 07 11:47:17 2024
+Thu Nov 07 20:57:59 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -42,7 +42,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 07 11:47:17 2024           ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 07 20:57:59 2024           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; parte_e                                         ;
 ; Top-level Entity Name              ; parte_e                                         ;
@@ -251,7 +251,7 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Nov 07 11:47:15 2024
+    Info: Processing started: Thu Nov 07 20:57:58 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off parte_e -c parte_e
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file parte_e.vhd
@@ -265,6 +265,28 @@ Info (12021): Found 2 design units, including 1 entities, in source file dato.vh
     Info (12023): Found entity 1: dato
 Info (12021): Found 1 design units, including 1 entities, in source file implementacion_final.bdf
     Info (12023): Found entity 1: implementacion_final
+Info (12021): Found 4 design units, including 2 entities, in source file compare.vhd
+    Info (12022): Found design unit 1: compare_altfp_compare_o6b-RTL
+    Info (12022): Found design unit 2: compare-RTL
+    Info (12023): Found entity 1: compare_altfp_compare_o6b
+    Info (12023): Found entity 2: compare
+Info (12021): Found 2 design units, including 1 entities, in source file contador_m7.vhd
+    Info (12022): Found design unit 1: contador_m7-SYN
+    Info (12023): Found entity 1: contador_M7
+Info (12021): Found 2 design units, including 1 entities, in source file contadorm6.vhd
+    Info (12022): Found design unit 1: contadorm6-SYN
+    Info (12023): Found entity 1: contadorM6
+Info (12021): Found 2 design units, including 1 entities, in source file registroo.vhd
+    Info (12022): Found design unit 1: registroo-SYN
+    Info (12023): Found entity 1: registroo
+Info (12021): Found 2 design units, including 1 entities, in source file registrodireccion.vhd
+    Info (12022): Found design unit 1: registrodireccion-SYN
+    Info (12023): Found entity 1: registrodireccion
+Info (12021): Found 1 design units, including 1 entities, in source file block1.bdf
+    Info (12023): Found entity 1: Block1
+Info (12021): Found 2 design units, including 1 entities, in source file comp.vhd
+    Info (12022): Found design unit 1: comp-SYN
+    Info (12023): Found entity 1: comp
 Info (12127): Elaborating entity "parte_e" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -274,9 +296,9 @@ Info (21057): Implemented 20 device resources after synthesis - the final resour
     Info (21059): Implemented 3 output pins
     Info (21061): Implemented 11 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4636 megabytes
-    Info: Processing ended: Thu Nov 07 11:47:17 2024
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 4629 megabytes
+    Info: Processing ended: Thu Nov 07 20:57:59 2024
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

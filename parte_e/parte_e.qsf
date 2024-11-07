@@ -54,4 +54,17 @@ set_global_assignment -name VHDL_FILE parte_e.vhd
 set_global_assignment -name VHDL_FILE direccion.vhd
 set_global_assignment -name VHDL_FILE dato.vhd
 set_global_assignment -name BDF_FILE implementacion_final.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE simulacion.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/sebas/Desktop/faculteishon/2024 seg cuatri/Técnicas y Dispositivos Digitales II/lab 2/labFPGA/parte_e/simulacion.vwf"
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name QIP_FILE compare.qip
+set_global_assignment -name QIP_FILE contador_M7.qip
+set_global_assignment -name QIP_FILE contadorM6.qip
+set_global_assignment -name QIP_FILE registroo.qip
+set_global_assignment -name QIP_FILE registrodireccion.qip
+set_global_assignment -name BDF_FILE Block1.bdf
+set_global_assignment -name QIP_FILE comp.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
