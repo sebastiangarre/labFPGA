@@ -4,11 +4,11 @@ K3
 cModel Technology
 Z0 dC:\Users\sebas\Desktop\faculteishon\2024 seg cuatri\Técnicas y Dispositivos Digitales II\lab 2\labFPGA\parte_f\simulation\qsim
 vdivisor
-Z1 !s100 @XV0>mU8mQo2EAiX9a17L1
-Z2 I6419mhzJ>Pb>L@ZNl20@[1
+Z1 !s100 X0DHPE:Vbz^eMb``@T9I42
+Z2 IBzElaSkW9<`Hzc4O8P9KJ1
 Z3 VSme?M]=KZD98zdj2k34Tc2
 Z4 dC:\Users\sebas\Desktop\faculteishon\2024 seg cuatri\Técnicas y Dispositivos Digitales II\lab 2\labFPGA\parte_f\simulation\qsim
-Z5 w1730994019
+Z5 w1731014367
 Z6 8parte_f.vo
 Z7 Fparte_f.vo
 L0 31
@@ -19,7 +19,7 @@ Z9 !s90 -work|work|parte_f.vo|
 Z10 o-work work -O0
 !i10b 1
 !s85 0
-Z11 !s108 1730994020.457000
+Z11 !s108 1731014367.815000
 Z12 !s107 parte_f.vo|
 !s101 -O0
 vdivisor_vlg_check_tst
@@ -28,54 +28,54 @@ Z13 !s100 kSRMO<Mn0h9[0^CLJUILY1
 Z14 I4>YloPUNm3n2oEaFKSHk73
 Z15 Vcc_AVDUanMPK=9dHYV9`83
 R4
-R5
-Z16 8parte_f.vt
-Z17 Fparte_f.vt
+Z16 w1731014366
+Z17 8parte_f.vt
+Z18 Fparte_f.vt
 L0 59
 R8
 r1
 !s85 0
 31
-Z18 !s108 1730994020.584000
-Z19 !s107 parte_f.vt|
-Z20 !s90 -work|work|parte_f.vt|
+Z19 !s108 1731014367.997000
+Z20 !s107 parte_f.vt|
+Z21 !s90 -work|work|parte_f.vt|
 !s101 -O0
 R10
 vdivisor_vlg_sample_tst
 !i10b 1
-Z21 !s100 nG;oIBT<C;Mb^K^LTWZGX0
-Z22 IkRU_AC793c`hm:YCLVF4S3
-Z23 VVin6K>n8<_ZTz8h=LUi`b3
+Z22 !s100 nG;oIBT<C;Mb^K^LTWZGX0
+Z23 IkRU_AC793c`hm:YCLVF4S3
+Z24 VVin6K>n8<_ZTz8h=LUi`b3
 R4
-R5
 R16
 R17
+R18
 L0 29
 R8
 r1
 !s85 0
 31
-R18
 R19
 R20
+R21
 !s101 -O0
 R10
 vdivisor_vlg_vec_tst
 !i10b 1
-!s100 k]O[^7gXn66@LoNXkF@zQ3
-IR:[GXW>G8zUE6Ri9?N[J41
-Z24 VCZ<Vz<_fdZaO30[d=3T;j2
+!s100 G7KUG?`=:g1N1S734M7SO3
+I9cDf8A2ocJ>Y9OMG4JkIC1
+Z25 VCZ<Vz<_fdZaO30[d=3T;j2
 R4
-R5
 R16
 R17
-Z25 L0 315
+R18
+Z26 L0 315
 R8
 r1
 !s85 0
 31
-R18
 R19
 R20
+R21
 !s101 -O0
 R10
